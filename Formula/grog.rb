@@ -1,20 +1,20 @@
 class Grog < Formula
   desc "Grog build system CLI"
   homepage "https://github.com/chrismatix/grog"
-  version "v0.8.0"
+  version "v0.9.0"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/chrismatix/grog/releases/download/v0.8.0/grog-darwin-arm64"
-    sha256 "a01e73eabbf5b696c4c4144408afb6e565be791855b6d8844df9b5757cf0e9ea"
+    url "https://github.com/chrismatix/grog/releases/download/v0.9.0/grog-darwin-arm64"
+    sha256 "9bccd06fa1992411c344407f3af30a98326bddc8201ab4a5cc52bc4db03edb7e"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/chrismatix/grog/releases/download/v0.8.0/grog-darwin-amd64"
-    sha256 "0626bd514d15540efa52491bce1ed6084cf0c4ad2505bca0fbbb219245c80812"
+    url "https://github.com/chrismatix/grog/releases/download/v0.9.0/grog-darwin-amd64"
+    sha256 "9a1a45c8fe620b5a3df8f38abbff223633f17edc45485a21187a5552aa6477c2"
   elsif OS.linux? && Hardware::CPU.arm?
-    url "https://github.com/chrismatix/grog/releases/download/v0.8.0/grog-linux-arm64"
-    sha256 "59b2460eff230d5be45fd8121494cb5631e0653bb0e2e2d669ebb12f830efddc"
+    url "https://github.com/chrismatix/grog/releases/download/v0.9.0/grog-linux-arm64"
+    sha256 "a4feb6e6130dcfeecd2dbd68bb617415caef65aa96ce9ef244806c9deebba867"
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/chrismatix/grog/releases/download/v0.8.0/grog-linux-amd64"
-    sha256 "df7b075d0202c21dca4bdf7ca1f55376c4c7378d2807430d3d1386dbfe365159"
+    url "https://github.com/chrismatix/grog/releases/download/v0.9.0/grog-linux-amd64"
+    sha256 "ca8fec00228874a2eb25091733f311b9fa3227dd0be81c97bf3679ead0c52844"
   end
 
   def install
