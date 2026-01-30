@@ -1,26 +1,26 @@
 class Grog < Formula
   desc "Grog build system CLI"
   homepage "https://github.com/chrismatix/grog"
-  version "v0.23.4"
+  version "v0.24.0"
   license "MIT"  # Update this to match your actual license
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/chrismatix/grog/releases/download/v0.23.4/grog-darwin-arm64"
-      sha256 "cd0f19a606dee3da6fb001ea091ec2a922048e3aa2e8c00aa99c93972cf4a48e"
+      url "https://github.com/chrismatix/grog/releases/download/v0.24.0/grog-darwin-arm64"
+      sha256 "95276b305f75d94924418e06ddafd0e844ae4c9bca597ba5996ba895fdd09e0f"
     else
-      url "https://github.com/chrismatix/grog/releases/download/v0.23.4/grog-darwin-amd64"
-      sha256 "d1da24ef89c1b5705a2aa4d42c526b885e79cfb3e22318324b0a979be5c5623c"
+      url "https://github.com/chrismatix/grog/releases/download/v0.24.0/grog-darwin-amd64"
+      sha256 "63358b462d479cf8e21a1bcc39f1c03b3877fc7b9e530c5945770c84a3cddac2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/chrismatix/grog/releases/download/v0.23.4/grog-linux-arm64"
-      sha256 "24ef19b70df77848fad976b9af60530fed699aa93b095d2b89fead7a5c0e7bfe"
+      url "https://github.com/chrismatix/grog/releases/download/v0.24.0/grog-linux-arm64"
+      sha256 "ffd7055ff784b96759f154e7fc1f4217fa149a802a6aa28313d87346bba826bf"
     else
-      url "https://github.com/chrismatix/grog/releases/download/v0.23.4/grog-linux-amd64"
-      sha256 "e7eeff80ba189542f033833817db2228f5bf0691009532cec1b07a9c3eefa66d"
+      url "https://github.com/chrismatix/grog/releases/download/v0.24.0/grog-linux-amd64"
+      sha256 "b838a6a439590a9922cd8e2ba8095d801d62a64581971ca62d408bbb6a66a0af"
     end
   end
 
